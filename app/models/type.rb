@@ -2,7 +2,7 @@
 class Type < ActiveRecord::Base
   attr_accessible :name, :text, :unit
 
-  scope :valid, where(id: [1, 5, 34, 38])
+  scope :valid, where(id: Type.pluck(:id))
 
   def formatted_unit
     unit == 'percent' ? "%" : "CHF"
@@ -17,10 +17,9 @@ class Type < ActiveRecord::Base
   end
 
   def self.pretty_names
-    { 1 => "Selbstfinanzierung",
-      5 => "Verschuldungsanteil",
-      34 => "Fremdkapital / Einwohner",
-      38 => "Ausgaben pro Schüler" }
+    Type.all.each_with_object({}) do |type, memo|
+      memo[type.id] = type.name =~ /Nation/ ? 'Nationen' : type.name
+    end
   end
 
 
