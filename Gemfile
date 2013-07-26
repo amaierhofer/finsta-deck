@@ -8,13 +8,10 @@ gem 'activerecord-import'
 gem 'geocoder'
 gem 'rails_config'
 gem 'newrelic_rpm'
+gem 'sqlite3'
 
-group :production do
-  gem 'pg'
-end
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'quiet_assets'
   gem 'better_errors'
   gem 'pry'

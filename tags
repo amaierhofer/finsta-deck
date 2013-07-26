@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddMetadataToMuni	/home/ama/dev/pzl/finsta-deck-zueri.git/db/migrate/20130322093304_add_metadata_to_muni.rb	/^class AddMetadataToMuni < ActiveRecord::Migration$/;"	c
+Application	/home/ama/dev/pzl/finsta-deck-zueri.git/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:FinstaDeck
+ApplicationController	/home/ama/dev/pzl/finsta-deck-zueri.git/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Card	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^  class Card$/;"	c
+CreateModels	/home/ama/dev/pzl/finsta-deck-zueri.git/db/migrate/20130315103924_create_models.rb	/^class CreateModels < ActiveRecord::Migration$/;"	c
+FinstaDeck	/home/ama/dev/pzl/finsta-deck-zueri.git/config/application.rb	/^module FinstaDeck$/;"	m
+FixtureHelper	/home/ama/dev/pzl/finsta-deck-zueri.git/spec/support/fixture_helper.rb	/^module FixtureHelper$/;"	m
+Game	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^class Game$/;"	c
+Geo	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/geo.rb	/^module Geo$/;"	m
+Geo	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/geo/importer.rb	/^module Geo$/;"	m
+Geo	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/geo/resolver.rb	/^module Geo$/;"	m
+GoogleStatic	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/maps/google_static.rb	/^  class GoogleStatic$/;"	c	class:Maps
+Import	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/job.rb	/^module Import$/;"	m
+Import	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^module Import$/;"	m
+Import	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/parser.rb	/^module Import$/;"	m
+Import	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/row.rb	/^module Import$/;"	m
+Importer	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/geo/importer.rb	/^  class Importer$/;"	c	class:Geo
+Job	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/job.rb	/^  class Job$/;"	c	class:Import
+Mapper	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^  class Mapper$/;"	c	class:Import
+Maps	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/maps/google_static.rb	/^module Maps$/;"	m
+Muni	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/muni.rb	/^class Muni < ActiveRecord::Base$/;"	c
+NewImport	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^module NewImport$/;"	m
+Number	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/number.rb	/^class Number < ActiveRecord::Base$/;"	c
+Parser	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/parser.rb	/^  class Parser$/;"	c	class:Import
+Parser	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^  class Parser$/;"	c
+Parser	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^  class Parser$/;"	c	class:Wikipedia
+Region	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/region.rb	/^class Region < Struct.new(:id, :name)$/;"	c
+Resolver	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/geo/resolver.rb	/^  class Resolver$/;"	c	class:Geo
+Result	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/result.rb	/^class Result$/;"	c
+Row	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/row.rb	/^  class Row$/;"	c	class:Import
+Type	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/type.rb	/^class Type < ActiveRecord::Base$/;"	c
+Value	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^  class Value$/;"	c	class:NewImport
+Wikipedia	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^class Wikipedia$/;"	c
+agglo?	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/muni.rb	/^  def agglo?$/;"	f	class:Muni
+all	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/region.rb	/^  def self.all$/;"	F	class:Region
+base_url	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/maps/google_static.rb	/^    def base_url$/;"	f	class:Maps.GoogleStatic
+calculate_percent	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/result.rb	/^  def calculate_percent(me, you)$/;"	f	class:Result
+can_play_stack?	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def can_play_stack?$/;"	f	class:ApplicationHelper
+cards	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^    def cards$/;"	f	class:Parser
+change	/home/ama/dev/pzl/finsta-deck-zueri.git/db/migrate/20130315103924_create_models.rb	/^  def change$/;"	f	class:CreateModels
+change	/home/ama/dev/pzl/finsta-deck-zueri.git/db/migrate/20130322093304_add_metadata_to_muni.rb	/^  def change$/;"	f	class:AddMetadataToMuni
+compare	/home/ama/dev/pzl/finsta-deck-zueri.git/app/controllers/application_controller.rb	/^  def compare$/;"	f	class:ApplicationController
+compare	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^  def compare$/;"	f	class:Game
+compare	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def compare(type)$/;"	f	class:ApplicationHelper
+create_type	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/parser.rb	/^    def create_type$/;"	f	class:Import.Parser
+csv	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^    def csv$/;"	f	class:Import.Mapper
+csv_file	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^    def csv_file$/;"	f	class:Wikipedia.Parser
+fetch	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^  def fetch$/;"	f	class:Wikipedia
+files	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/job.rb	/^    def files$/;"	f	class:Import.Job
+find	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/region.rb	/^  def self.find(id)$/;"	F	class:Region
+format_number	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def format_number(number)$/;"	f	class:ApplicationHelper
+formatted_unit	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/type.rb	/^  def formatted_unit$/;"	f	class:Type
+game	/home/ama/dev/pzl/finsta-deck-zueri.git/app/controllers/application_controller.rb	/^  def game$/;"	f	class:ApplicationController
+google_map	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def google_map(muni)$/;"	f	class:ApplicationHelper
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^  def initialize(request_params, game_params={})$/;"	f	class:Game
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/result.rb	/^  def initialize(game, type)$/;"	f	class:Result
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^    def initialize(file, years)$/;"	f	class:Import.Mapper
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/parser.rb	/^    def initialize(file)$/;"	f	class:Import.Parser
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/row.rb	/^    def initialize(file, row, years)$/;"	f	class:Import.Row
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^    def initialize(file)$/;"	f	class:Parser
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^    def initialize(row)$/;"	f	class:Card
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^    def initialize(value, index)$/;"	f	class:NewImport
+initialize	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^    def initialize(file)$/;"	f	class:Wikipedia.Parser
+initialize_me	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^  def initialize_me$/;"	f	class:Game
+initialize_options	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^  def initialize_options(game_params)$/;"	f	class:Game
+initialize_stack	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^  def initialize_stack$/;"	f	class:Game
+initialize_you	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^  def initialize_you$/;"	f	class:Game
+load	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/muni.rb	/^  def self.load(ids)$/;"	F	class:Muni
+logger	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/row.rb	/^    def logger$/;"	f	class:Import.Row
+map	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^    def map(years)$/;"	f	class:Import.Mapper
+map	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^    def map(rows)$/;"	f	class:Wikipedia.Parser
+municipality	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/row.rb	/^    def municipality$/;"	f	class:Import.Row
+munis_id	/home/ama/dev/pzl/finsta-deck-zueri.git/spec/support/fixture_helper.rb	/^  def munis_id(*args)$/;"	f	class:FixtureHelper
+number_type_info	/home/ama/dev/pzl/finsta-deck-zueri.git/app/controllers/application_controller.rb	/^  def number_type_info$/;"	f	class:ApplicationController
+numbers	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def numbers(muni)$/;"	f	class:ApplicationHelper
+numbers	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/row.rb	/^    def numbers(number_type_id)$/;"	f	class:Import.Row
+only_rows	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^    def only_rows(table)$/;"	f	class:Wikipedia.Parser
+options	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/parser.rb	/^    def options$/;"	f	class:Import.Parser
+parse	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^    def parse$/;"	f	class:Parser
+parse	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^  def parse$/;"	f	class:Wikipedia
+populate_ivars	/home/ama/dev/pzl/finsta-deck-zueri.git/app/controllers/application_controller.rb	/^  def populate_ivars$/;"	f	class:ApplicationController
+prepare	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/parser.rb	/^    def prepare(data)$/;"	f	class:Import.Parser
+pretty_name	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/type.rb	/^  def pretty_name$/;"	f	class:Type
+pretty_names	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/type.rb	/^  def self.pretty_names$/;"	F	class:Type
+query	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/maps/google_static.rb	/^    def query(name)$/;"	f	class:Maps.GoogleStatic
+run	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/geo/importer.rb	/^    def run$/;"	f	class:Geo.Importer
+run	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/geo/resolver.rb	/^    def run$/;"	f	class:Geo.Resolver
+run	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/job.rb	/^    def run$/;"	f	class:Import.Job
+show	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def show$/;"	f	class:ApplicationHelper
+stack_circles	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def stack_circles$/;"	f	class:ApplicationHelper
+target	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^  def target$/;"	f	class:Wikipedia
+title	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def title(title='')$/;"	f	class:ApplicationHelper
+to_s	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/parser.rb	/^    def to_s$/;"	f	class:Import.Parser
+to_s	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/muni.rb	/^  def to_s$/;"	f	class:Muni
+to_s	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/type.rb	/^  def to_s$/;"	f	class:Type
+type	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/game.rb	/^  def type$/;"	f	class:Game
+type_postfix	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^    def type_postfix$/;"	f	class:Import.Mapper
+types	/home/ama/dev/pzl/finsta-deck-zueri.git/app/helpers/application_helper.rb	/^  def types$/;"	f	class:ApplicationHelper
+types_id	/home/ama/dev/pzl/finsta-deck-zueri.git/spec/support/fixture_helper.rb	/^  def types_id(*args)$/;"	f	class:FixtureHelper
+update_municipalities	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^    def update_municipalities$/;"	f	class:Import.Mapper
+update_number_kinds	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^    def update_number_kinds$/;"	f	class:Import.Mapper
+update_numbers	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/mapper.rb	/^    def update_numbers$/;"	f	class:Import.Mapper
+url	/home/ama/dev/pzl/finsta-deck-zueri.git/app/domain/maps/google_static.rb	/^    def url(muni)$/;"	f	class:Maps.GoogleStatic
+valid?	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/row.rb	/^    def valid?$/;"	f	class:Import.Row
+valid_files	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/import/job.rb	/^    def valid_files$/;"	f	class:Import.Job
+value	/home/ama/dev/pzl/finsta-deck-zueri.git/app/models/muni.rb	/^  def value(type_id)$/;"	f	class:Muni
+values	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/new_import.rb	/^    def values$/;"	f	class:Card
+write_csv	/home/ama/dev/pzl/finsta-deck-zueri.git/app/jobs/wikipedia.rb	/^    def write_csv$/;"	f	class:Wikipedia.Parser
