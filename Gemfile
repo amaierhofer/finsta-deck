@@ -11,24 +11,24 @@ gem 'newrelic_rpm'
 gem 'sqlite3'
 
 
-group :development, :test do
-  gem 'quiet_assets'
-  gem 'better_errors'
-  gem 'pry'
-  gem 'pry-debugger'
-  gem 'pry-doc'
-  gem 'pry-nav'
-  gem 'pry-rails'
-  gem 'rspec-rails'
-  gem 'guard-rspec'
-  gem 'spring'
-  gem 'binding_of_caller'
+# group :development, :test do
+#   gem 'quiet_assets'
+#   gem 'better_errors'
+#   gem 'pry'
+#   gem 'pry-debugger'
+#   gem 'pry-doc'
+#   gem 'pry-nav'
+#   gem 'pry-rails'
+#   gem 'rspec-rails'
+#   gem 'guard-rspec'
+#   gem 'spring'
+#   gem 'binding_of_caller'
 
-  case RUBY_PLATFORM
-  when /linux/ then gem 'rb-inotify', '~> 0.9'
-  when /darwin/ then gem 'rb-fsevent'
-  end
-end
+#   case RUBY_PLATFORM
+#   when /linux/ then gem 'rb-inotify', '~> 0.9'
+#   when /darwin/ then gem 'rb-fsevent'
+#   end
+# end
 
 
 group :assets do
