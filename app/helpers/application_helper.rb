@@ -32,7 +32,7 @@ module ApplicationHelper
   end
 
   def google_map(muni)
-    image_tag(Maps::GoogleStatic.new.url(muni))
+    image_tag(Maps::GoogleStatic.new.url(muni), alt: muni.name)
   end
 
   def types
